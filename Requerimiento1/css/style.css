@@ -1,0 +1,407 @@
+
+main {
+        width: 1000px;
+        position: absolute;
+        min-width: 200px;
+        min-height: 400px;
+        left: 12%;
+        right: 12%;
+        max-width: 1000px;
+        max-height: 2000px;
+        top: 2%;
+        bottom: 5%;
+        background-color: #F9F9FA;
+}
+
+header {
+	width: 100%;
+    height: 60px;
+    position: static;
+    margin-bottom: 30px;
+    z-index: 1;
+    background-color: #B5B6B8;
+}
+
+header .title_page {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+#imgusuario{
+    width: 35%;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #816f6f;
+	margin-top: 4px;
+    margin-bottom: 0;
+}
+
+h2 {
+	font-family: Verdana;
+	font-size: 16px;
+	border: 1px solid #DBDBDD;
+	position: absolute;
+    background-color: #FFFFFF;
+    margin-top: -12px;
+    margin-left: 12px;
+	padding: 2px;
+	border-radius: 10px;
+}
+
+
+input {
+	height: 16px;
+}
+
+label {
+	height: 16px;
+	margin-bottom: 5px;
+}
+
+select {
+	height: 22px;
+	border-radius: 15px;
+	font-family: Verdana;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+
+/* Tabla Profesores */
+.tablas{
+	width: 96%;
+    height: 10%;
+    margin: 2%;
+	background-color: #b1b15e;
+	border-radius: 10px;
+}
+
+
+.tablas .adicional{
+	padding-top: 25px;
+	display: table;
+	clear: both;
+	width: 90%;
+    margin-left: 5%;
+}
+
+.tablas .adicional .datos{
+    width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+}
+/* Fin Tabla Profesores */
+
+/* Tabla Grados */
+.tablas2{
+	width: 96%;
+    height: 12%;
+    margin: 2%;
+	background-color: #f3f376;
+	border-radius: 10px;
+}
+
+.tablas2 .adicional{
+	padding-top: 25px;
+	display: table;
+	clear: both;
+	width: 90%;
+    margin-left: 8%;
+}
+
+
+.tablas2 .adicional .datos{
+    width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+	text-align: left;
+}
+/* Fin Tabla Grados */
+
+/* Lista Ordenada */
+.listas{
+	width: 96%;
+    height: 10%;
+    margin: 2%;
+	background-color: #91e9cc;
+	border-radius: 10px;
+}
+
+.listas .adicional{
+	padding-top: 25px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 15%;
+    margin-left: 15%;
+
+}
+
+.listas .adicional .datos{
+    width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+
+
+}
+/* Fin Lista Ordenada */
+
+/* Formulario - Contacto */
+form .contacto {
+	width: 96%;
+    margin: 2%;
+	background-color: #eb9c53;
+	border-radius: 10px;
+}
+
+form .contacto .datos_1 {
+	padding-top: 20px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+form .contacto .datos_1 .insert_datos_apellidos{
+	float: left;
+	width: 40%;
+	display: inline-grid;
+	margin-right: 10px;
+	
+}
+
+form .contacto .datos_1 .insert_datos_nombre{
+	float: left;
+	width: 25%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .contacto .datos_1 .insert_datos_dni{
+	float: left;
+	width: 25%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .contacto .datos_1 label {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+
+form .contacto .datos_1 input {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+	height: auto;
+	border-radius: 5px;
+}
+
+form .contacto .datos_2 {
+	padding-top: 10px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+form .contacto .datos_2 .insert_datos_email{
+	float: left;
+	width: 40%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .contacto .datos_2 .insert_datos_telefono{
+	float: left;
+	width: 25%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .contacto .datos_2 .insert_datos_telefono input[type='numero'][id='telefono'] {
+	width:56%;
+} 
+
+form .contacto .datos_2 .insert_datos_fecha_nacimiento{
+	float: left;
+	width: 28%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .contacto .datos_2 label {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+form .contacto .datos_2 input {
+	width: 65%;
+	font-family: Verdana;
+	font-size: 14px;
+	height: auto;
+	border-radius: 5px;
+}
+
+form .contacto .datos_2 .insert_datos_fecha_nacimiento input[type='fecha'][id='fecha_nacimiento'] {
+	width:50%;
+} 
+
+form .contacto .datos_3 {
+	padding-top: 10px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+form .contacto .datos_3 .insert_datos_domicilio{
+	float: left;
+	width: 65%;
+	display: inline-grid;
+	margin-right: 20px;
+}
+
+form .contacto .datos_3 .insert_datos_codigo_postal{
+	float: left;
+	width: 28%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .contacto .datos_3 label {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+form .contacto .datos_3 input {
+	width: 101%;
+	font-family: Verdana;
+	font-size: 14px;
+	height: auto;
+	border-radius: 5px;
+}
+
+form .contacto .datos_3 .insert_datos_codigo_postal input[type='numero'][id='codigo_postal'] {
+	width:50%;
+} 
+
+form .contacto .datos_4 {
+	padding-top: 10px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+	padding-bottom: 20px;
+}
+
+form .contacto .datos_4 .insert_datos_localidad{
+	float: left;
+	width: 40%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .contacto .datos_4 .insert_datos_provincia_domicilio{
+	float: left;
+	width: 25%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+
+form .contacto .datos_4 label {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+form .contacto .datos_4 input {
+	width: 65%;
+	font-family: Verdana;
+	font-size: 14px;
+	height: auto;
+	border-radius: 5px;
+}
+
+
+
+
+form .contacto .datos_5 {
+	padding-top: 10px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+	padding-bottom: 20px;
+}
+
+form .contacto .datos_5 label {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Fin Formulario de contacto */
+
+/* + Informacion */
+.masinformacion{
+	width: 96%;
+    height: 20%;
+    margin: 2%;
+	background-color: #ec8de0;
+	border-radius: 10px;
+}
+
+.masinformacion .adicional{
+	padding-top: 45px;
+	display: table;
+	clear: both;
+	width: 50%;
+    margin-left: 25%;
+
+ 
+}
+
+
+.masinformacion .adicional .datos{
+    width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.masinformacion .adicional .celda{
+    text-align: center;
+	color:#DBDBDD;
+    background-color: #612b5a;
+	font-family: Verdana;
+	font-size: 20px;
+	border-radius: 10px;
+}
+/* Fin + Informacion */
