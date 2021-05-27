@@ -105,15 +105,15 @@
 								<div class="datos_1">
 									<div class="insert_datos_apellidos">
 										<label for="apellidos" id="apellidos">Apellidos:</label>
-										<input type="text" id="apellidos"/>
+										<input type="text" id="apellidos" placeholder="Apellidos"/>
 									</div>
 									<div class="insert_datos_nombre">
 										<label for="nombre">Nombre:</label>
-										<input type="text" id="nombre" />
+										<input type="text" id="nombre" placeholder="Nombre"/>
 									</div>
 									<div class="insert_datos_dni">
 									<label for="dni">DNI:</label>
-									<input type="dni" id="dni" />
+									<input type="dni" id="dni" placeholder="DNI"/>
 									</div>
 								</div>
 								<div class="datos_2">
@@ -123,7 +123,7 @@
 									</div>
 									<div class="insert_datos_telefono">
 										<label for="telefono">Teléfono:</label>
-										<input type="numero" id="telefono" />
+										<input type="numero" id="telefono" placeholder="teléfono"/>
 									</div>
 									<div class="insert_datos_fecha_nacimiento">
 									<label for="fecha_nacimiento">Fecha nacimiento:</label>
@@ -137,13 +137,13 @@
 									</div>
 									<div class="insert_datos_codigo_postal">
 										<label for="codigo_postal">Código Postal:</label>
-										<input type="numero" id="codigo_postal" />
+										<input type="numero" id="codigo_postal" placeholder="Código Postal"/>
 									</div>
 								</div>
 								<div class="datos_4">
 									<div class="insert_datos_localidad">
 										<label for="localidad">Localidad:</label>
-										<input type="text" id="localidad" />
+										<input type="text" id="localidad" placeholder="Localidad"/>
 									</div>
 									<div class="insert_datos_provincia_domicilio">
 										<label for="provincia_domicilio">Provincia:</label>
